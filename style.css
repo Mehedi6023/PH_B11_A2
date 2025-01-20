@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --ff-title: "Quicksand", serif;
+    --ff-text: "Raleway", serif;
+
+    --clr-orange: orange;
+    --clr-skyblue: skyblue;
+    --clr-lightblue: #05D4DF;
+    --clr-blue: #5D58EF;
+    --clr-black: black;
+    --clr-white: white;
+
+    --10px: 0.625rem;
+    --12px: 0.75rem;
+    --16px: 1rem;
+    --20px: 1.25rem;
+    --24px: 1.5rem;
+    --32px: 2rem;
+    --40px: 2.5rem;
+    --48px: 3rem;
+    --56px: 3.5rem;
+    --1440px: 90rem;
+}
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.body-container{
+    max-width: var(--1440px);
+    margin: var(--10px) auto;
+}
+/* header */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header-left */
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: var(--10px);
+}
+.logo-wrapper{
+    width: var(--56px);
+    height: var(--56px);
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.logo-text h1{
+    font-size: var(--32px);
+    font-family: var(--ff-title);
+    font-weight: bold;
+    color: var(--clr-black);
+}
+/* header-middle */
+.nav-middle ul{
+    display: flex;
+    gap: var(--32px);
+}
+.hl{
+    font-family: var(--ff-title);
+    font-size: var(--20px);
+    font-weight: bold;
+}
+.hl1{
+    color: var(--clr-orange);
+}
+.hl2{
+    color: var(--clr-skyblue);
+}
+.hl3{
+    color: var(--clr-lightblue);
+}
+.hl4{
+    color: var(--clr-blue);
+}
+/* header-right */
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.menu-wrapper{
+    width: var(--32px);
+    height: var(--32px);
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.btn1{
+    font-family: var(--ff-title);
+    font-weight: 700;
+    font-size: var(--20px);
+    color: var(--clr-white);
+    border: none;
+    border-radius: var(--10px);
+    padding: var(--10px) var(--32px);
+    background-color: var(--clr-orange);
+}
