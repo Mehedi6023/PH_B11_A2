@@ -571,6 +571,9 @@ ul li {
         width: var(--48px);
         height: var(--48px);
     }
+    .logo-text{
+        display: none;
+    }
     .hero{
         margin: var(--24px) 0px;
     }
