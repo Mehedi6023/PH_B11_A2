@@ -129,6 +129,15 @@ li, a{
     border: 1px solid var(--clr-orange);
     display: none;
 }
+marquee{
+    margin: var(--32px) 0rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-top: 2px solid var(--clr-orange);
+    border-bottom: 2px solid var(--clr-orange);
+    padding: var(--16px) 0rem;
+    font-size: var(--20px);
+}
 /* hero section  */
 .hero{
     margin: var(--32px) 0px;
@@ -253,6 +262,16 @@ li, a{
     justify-content: center;
     gap: var(--24px);
     margin: var(--56px) 0rem;
+}
+.previous-wrapper, .next-wrapper{
+    width: var(--56px);
+}
+.previous, .next{
+    width: 100%;
+    transition: transform 0.2s;
+}
+.previous:hover, .next:hover{
+    transform: scale(1.2) rotate(360deg);
 }
 /* story */
 .story-section{
@@ -534,6 +553,9 @@ ul li {
     .f-right{
         justify-self: start;
     }
+    .np-icons{
+        display: none;
+    }
 }
 @media all and (max-width: 56.25em) and (min-width: 37.5em){
     .body-container{
@@ -584,6 +606,17 @@ ul li {
     }
     .dob p{
         font-size: var(--10px);
+    }
+    .item1{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
+    .story{
+        gap: var(--10px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .s-img-wrapper{
         margin-bottom: var(--32px);
