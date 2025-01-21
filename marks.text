@@ -2,24 +2,24 @@
 
 ### 1. Navbar
 
-- **Logo and Site Name**: Positioned at the left.
-- **Colorful Navigation Links**: Three links are centered for easy navigation.
-- **Contact Button**: button at the right to encourage user interaction.
+DONE- **Logo and Site Name**: Positioned at the left.
+DONE- **Colorful Navigation Links**: Three links are centered for easy navigation.
+DONE- **Contact Button**: button at the right to encourage user interaction.
 - **Mobile Responsiveness**:
-  - Displays only the logo at the left and a menu bar at the right.
-  - Other elements of the navbar will be hidden for a cleaner mobile experience.
+  DONE- Displays only the logo at the left and a menu bar at the right.
+  DONE- Other elements of the navbar will be hidden for a cleaner mobile experience.
 
 ---
 
 ### 2. Banner
 
-- **Content**:
-  - Heading with different colored text, a paragraph, and a button styled as per design.
-  - Relevant image of a child is placed on the right.
+DONE- **Content**:
+DONE  - Heading with different colored text, a paragraph, and a button styled as per design.
+DONE  - Relevant image of a child is placed on the right.
 - **Mobile Responsiveness**:
-  - Image moves to the top.
-  - Content will be after the image.
-  - Content will be center aligned as Figma.
+ DONE - Image moves to the top.
+ DONE - Content will be after the image.
+ DONE - Content will be center aligned as Figma.
 
 ---
 
